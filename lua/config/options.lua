@@ -4,3 +4,4 @@
 
 vim.opt.relativenumber = false
 vim.opt.clipboard = ""
+vim.opt.conceallevel = 0

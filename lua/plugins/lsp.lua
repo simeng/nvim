@@ -2,6 +2,20 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      cssls = {
+        settings = {
+          scss = {
+            lint = {
+              unknownAtRules = "ignore", -- Ignore unknown at-rules like tailwind @apply
+            },
+          },
+          css = {
+            lint = {
+              unknownAtRules = "ignore", -- Ignore unknown at-rules like tailwind @apply
+            },
+          },
+        },
+      },
       intelephense = {
         settings = {
           intelephense = {

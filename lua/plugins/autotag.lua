@@ -1,10 +1,14 @@
 return {
   {
-    "windwp/nvim-ts-autotag",
-    event = "LazyFile",
+    "nvim-treesitter/nvim-treesitter",
+    dependencies = {
+      { "windwp/nvim-ts-autotag" },
+    },
     opts = {
-      enable_close = false,
-      enable_close_on_slash = false,
+      opts = {
+        enable_close = false,
+        enable_close_on_slash = false,
+      },
     },
   },
 }

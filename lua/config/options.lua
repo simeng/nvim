@@ -6,3 +6,5 @@ vim.opt.relativenumber = false
 -- vim.opt.clipboard = ""
 vim.opt.conceallevel = 0
 vim.opt.wrap = true
+
+vim.g.snacks_animate = false

@@ -19,3 +19,5 @@ vim.g.clipboard = {
   },
   cache_enabled = 0,
 }
+
+vim.g.snacks_animate = false

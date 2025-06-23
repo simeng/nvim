@@ -6,13 +6,13 @@
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "NLKNguyen/papercolor-theme" },
+  -- { "NLKNguyen/papercolor-theme" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "PaperColor",
+      colorscheme = "tokyonight-night",
     },
   },
 }

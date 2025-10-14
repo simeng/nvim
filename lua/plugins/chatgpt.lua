@@ -9,6 +9,7 @@ return {
       "<leader>cg",
       "<cmd>ChatGPT<cr>",
       desc = "Ask ChatGPT",
+      mode = { "n", "v" },
     },
   },
   dependencies = {

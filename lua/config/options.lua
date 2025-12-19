@@ -8,3 +8,4 @@ vim.opt.conceallevel = 0
 vim.opt.wrap = true
 
 vim.g.snacks_animate = false
+vim.g.lazyvim_php_lsp = "intelephense"
